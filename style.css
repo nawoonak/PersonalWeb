@@ -1,0 +1,343 @@
+@font-face {
+    font-family: nawoonam;
+    src: url("yekan-regular.eot") format('eot'), url("yekan-regular.ttf")format('ttf'), url("yekan-regular.woff")format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    direction: ltr;
+    font-family: nawoon;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(to top , rgba(0,0,0,0.5)20%,rgba(0,0,0,0.5)20%) ,url("bg.jpg");
+    background-attachment: fixed;
+}
+
+.nav-bar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo-div{
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin-right: 80px;
+}
+
+.logo-div a{
+    text-decoration: none;
+    color:#ff7200;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial;
+    text-shadow: 0.4px 0.4px 70px rgb(82, 77, 77);
+    float: left;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.menu{
+    width:300px;
+    height: 70px;
+    float: left;
+}
+
+ .menu ul {
+
+     float: left;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+
+ }
+
+ .menu ul li{
+     margin-left: 62px;
+     margin-top: 30px;
+     font-size: 14px;
+     list-style-type: none;
+ }
+
+ .menu ul li a{
+     color: #fff;
+     font-family: Arial;
+     font-weight: bold;
+     text-decoration: none;
+     transition: 0.4s ease-in-out;
+ }
+
+ .menu ul li a:hover{
+     color: #ff7200;
+ }
+
+ .search{
+     width: 330px;
+     float: left;
+     margin-left: 340px;
+     margin-top: 20px;
+     align-items: center;
+
+ }
+
+.search-box{
+    font-family: "Times New Roman";
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.search-box::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.search-box:focus{
+    outline: none;
+
+}
+
+.search a button{
+    width: 100px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.search a button:hover{
+    color: black;
+}
+
+.search a button:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content-text h1{
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    text-shadow: 0.4px 0.4px 40px  rgb(82, 77, 77);
+}
+
+.content-text .span1{
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.paragraph{
+    text-shadow: 0.4px 0.4px 40px rgb(34, 31, 31);
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content-text a{
+    padding-left: 20px;
+}
+
+.join-button{
+    width: 160px;
+    height: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #ff7200;
+    border: none;
+    box-shadow: 0.4px 0.4px 40px rgb(52, 47, 47);
+    color: #000;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.join-button:hover{
+    background-color: #fff;
+}
+
+.login-bar{
+    width:350px;
+    height: 470px;
+    background-color: rgba(0,0,0,0.6);
+    float:right;
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    display: inline;
+    border-radius: 10px;
+    padding: 40px 40px ;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.log-header{
+    display: block;
+    position: absolute;
+    right: 55px;
+    left: 55px;
+    padding: 9px 80px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    top: 60px;
+    width: 70%;
+    height: 8%;
+    background-color: #fff;
+    color: #ff7200;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.login-bar input{
+    margin:0 auto ;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    width: 70%;
+    height: 6%;
+    border-radius: 0;
+}
+
+.login-bar .log-input1  {
+    top: 28%;
+}
+
+.login-bar .log-input2{
+    top: 38%;
+}
+
+ .login-bar button  {
+    margin: 120px auto;
+    width: 70%;
+    height: 8%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    border-radius: 10px;  
+    border: none;
+    background-color: #ff7200;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.login-bar button:hover{
+    background-color: #fff;
+}
+
+.login-bar button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login-bar p {
+    margin:200px 0 0 0;
+    text-align: center;
+    font-family: Arial;
+    position: absolute;
+    bottom: 34%;
+    right: 10%;
+    left: 10%;
+    
+}
+
+.login-bar input{
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #ff7200;
+}
+
+.login-bar input:focus{
+    outline: none;
+}
+
+.login-bar .log-sign{
+    position: absolute;
+    bottom: 28%;
+    right: 10%;
+    left: 10%;
+    font-family: Arial;
+}
+
+.login-bar .log-login{
+    position: absolute;
+    bottom:15%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-bar a{
+    color: #ff7200;
+}
+
+.login-bar a:active{
+    color:#faa45d;
+}
+
+.icons{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+
+}
+ .icons a{
+    margin:0 5px;
+ }
+.icons svg{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.icons svg:hover{
+     color:#ff7200;
+}
